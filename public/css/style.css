@@ -3019,12 +3019,22 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    --bs-btn-color: #000;
-    --bs-btn-bg: #bd5d38;
-    --bs-btn-border-color: #bd5d38;
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #c77556;
-    --bs-btn-hover-border-color: #c46d4c;
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: RGBA(0, 90, 180, var(--bs-bg-opacity, 1)) !important;
+    --bs-btn-border-color: RGBA(
+        0,
+        123,
+        255,
+        var(--bs-bg-opacity, 1)
+    ) !important;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: RGBA(0, 123, 255, var(--bs-bg-opacity, 1)) !important;
+    --bs-btn-hover-border-color: #RGBA(
+        0,
+        123,
+        255,
+        var(--bs-bg-opacity, 1)
+    ) !important;
     --bs-btn-focus-shadow-rgb: 161, 79, 48;
     --bs-btn-active-color: #000;
     --bs-btn-active-bg: #ca7d60;
@@ -7041,12 +7051,12 @@ fieldset:disabled .btn {
 
 .text-bg-primary {
     color: #000 !important;
-    background-color: RGBA(189, 93, 56, var(--bs-bg-opacity, 1)) !important;
+    background-color: RGBA(0, 60, 130, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
     color: #fff !important;
-    background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+    background-color: RGBA(0, 60, 130, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -8453,7 +8463,7 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 .text-primary {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    color: RGBA(0, 90, 180, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-secondary {
@@ -8544,10 +8554,7 @@ fieldset:disabled .btn {
 
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: rgba(
-        var(--bs-primary-rgb),
-        var(--bs-bg-opacity)
-    ) !important;
+    background-color: RGBA(0, 90, 180, var(--bs-bg-opacity, 1)) !important;
 }
 
 .bg-secondary {
@@ -11394,11 +11401,14 @@ p.lead {
     margin-right: 0;
 }
 .social-icons .social-icon:hover {
-    background-color: #bd5d38;
+    background-color: RGBA(0, 90, 180, var(--bs-bg-opacity, 1)) !important;
 }
 
 .dev-icons {
     font-size: 3rem;
+}
+.email {
+    color: RGBA(0, 90, 180, var(--bs-bg-opacity, 1)) !important;
 }
 
 section.resume-section {
