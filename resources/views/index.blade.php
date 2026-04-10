@@ -58,10 +58,7 @@
                         どうぞよろしくお願いいたします。
                     </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://github.com/TDuongIT"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
@@ -175,10 +172,10 @@
                             </p>
 
                             <div class="mt-auto">
-                                <a href="https://github.com/ToTungDuong/jewelry_shop.git" target="_blank" class="btn btn-outline-dark">
+                                <a href="https://github.com/TDuongIT/shop-PHPMVC" target="_blank" class="btn btn-outline-dark">
                                     <i class="fab fa-github"></i> GitHub
                                 </a>
-                                <a href="#" class="btn btn-primary">
+                                <a href="https://jewelry-shop.totungduong.site" class="btn btn-primary">
                                     <i class="fas fa-external-link-alt"></i> Live Demo
                                 </a>
                             </div>
@@ -248,10 +245,10 @@
                             </p>
 
                             <div class="mt-auto">
-                                <a href="https://github.com/ToTungDuong/maternity_shop.git" target="_blank" class="btn btn-outline-dark btn-sm">
+                                <a href="https://github.com/TDuongIT/shop-laravel" target="_blank" class="btn btn-outline-dark">
                                     <i class="fab fa-github"></i> GitHub
                                 </a>
-                                <a href="#" class="btn btn-primary btn-sm">
+                                <a href="https://laravel-shop.totungduong.site" class="btn btn-primary">
                                     <i class="fas fa-external-link-alt"></i> Live Demo
                                 </a>
                             </div>
